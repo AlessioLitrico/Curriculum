@@ -6,92 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <style>
   /* Reset */ 
-  body, html{ background: #000; color: #fff; font-family: 'Intro', Arial, Helvetica, sans-serif; line-height: 1; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol,ul{padding-left: 20px;line-height: 1.5;}img{height: auto;}h1{font-size: 4rem;} h2{font-size: 3rem;} h3{font-size: 2rem;} h4{font-size: 1rem;} h5{font-size: 0.8rem;} h6{font-size: 0.6rem;}a{text-decoration:none}
-  .video-bg{
-   width: 100%;
-   height: 100vh;
-   position: fixed;
-   top: 0;
-   left: 0;
-   object-fit: cover;
-   opacity: 0.5;
-   z-index: 0;
-  }
   
-  .section{
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100vh;
-
-  }
-
-
-
-  .title{
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
-    position: fixed;
-    top: 0; left: 0;
-    margin-left: 25%;
-    transform: scale(1);
-    transition: all 1s cubic-bezier(.215, .61, .355, 1);
-    opacity: 0;
-
-  }
-
-  .section.in-page .title{
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-.panel {
-      height: auto;
-      width: 100%;
-      background: #f7f7f7;
-      position: relative;
-      z-index: 2;
-      color: #000;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-.container{width: 100%; max-width: 1000px; padding: 15% 10% 10% 10%;}
-
-.title-big{font-size: 5rem;}
-
-.fade-in{opacity: 0;transform: translateY(20vh); transition: all 1s cubic-bezier(.215, .61, .355, 1);}
-.fade-in.in-page{opacity: 1;transform: translateY(0vh);}
-
-
-.img-big-left {
-  width: 120vw; position: relative; left: -30vw; display: block; 
-
-}
-
-.intro{
-  text-align: left; font-size: 3.5rem;
-}
-
-.desc{
-  text-align: left; font-size: 1.5rem;
-}
   </style>
 
 </head>
